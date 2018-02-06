@@ -13,22 +13,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/b6e88651f6.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-53669632-2', 'auto');
-        ga('send', 'pageview');
-    </script>
 </head>
 
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -50,7 +34,6 @@
                     <li><a href="#pricing">PRICING</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
-                <a class="btn" href="/login.html">Login</a>
             </div>
         </div>
     </nav>
@@ -70,48 +53,6 @@
         </div>
     </div>
 
-    <!-- Container (Services Section) 
-    <div id="services" class="container-fluid text-center">
-        <h2>SERVICES</h2>
-        <h4>What we offer</h4>
-        <br>
-        <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-off logo-small"></span>
-                <h4>POWER</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-heart logo-small"></span>
-                <h4>LOVE</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-lock logo-small"></span>
-                <h4>JOB DONE</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-        </div>
-        <br><br>
-        <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-leaf logo-small"></span>
-                <h4>GREEN</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-certificate logo-small"></span>
-                <h4>CERTIFIED</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-wrench logo-small"></span>
-                <h4 style="color:#303030;">HARD WORK</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-        </div>
-    </div>
--->
 
     <!-- Container (Portfolio Section) -->
     <div id="portfolio" class="container-fluid text-center bg-grey">
@@ -166,31 +107,6 @@
         </div>
     </div>
 
-    <!-- Add Google Maps 
-    <div id="googleMap" style="height:400px;width:100%;"></div>
-    <script>
-        function myMap() {
-            var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-            var mapProp = {
-                center: myCenter,
-                zoom: 12,
-                scrollwheel: false,
-                draggable: false,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-            var marker = new google.maps.Marker({
-                position: myCenter
-            });
-            marker.setMap(map);
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-    
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
     <footer class="container-fluid text-center">
         <a href="#home" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
@@ -236,19 +152,5 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
     </script>
 
 </body>
-
-<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
-<script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyDvdgIfLQKhxRY_JD4JBnaHdrIkVo0xtas",
-        authDomain: "quiz-a044f.firebaseapp.com",
-        databaseURL: "https://quiz-a044f.firebaseio.com",
-        projectId: "quiz-a044f",
-        storageBucket: "quiz-a044f.appspot.com",
-        messagingSenderId: "1019518271661"
-    };
-    firebase.initializeApp(config);
-</script>
 
 </html>
